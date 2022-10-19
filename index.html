@@ -5,70 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata</title>
-    <style>
-        .nav ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-        }
-        
-        .nav li {
-          float: left;
-        }
-        
-        .nav li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-        
-        .nav li a:hover {
-          background-color: #111;
-        }
-    </style>
-</head>
-<body>
-    <div class="nav">
-        <ul>
-            <li><a href="index.html">Biodata</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-        </ul>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="index.html">Biodata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="portofolio.html">Portofolio</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-</body>
-</html>
-<html>
-    <body>
-        <h1>Tia Aulia Azahra</h1>
-        <img src="profil.jpg" width="200" height="200">
-        <h2>Tentang Saya</h2>
-        <palign"justify">Saya merupakan mahasiswi jurusan Teknik Informatika STTBandung,
-            Saya saat ini sedang menjalankan studi independen di SEAL by AWS,
-            Saya sangat suka belajar hal-hal baru yang berkaitan dengan pengembangan kemampuan,
-            Saya sangat suka membaca berbagai macam buku mulai dari novel dan jurnal,
-            Saat ini usia saya berumur 20 tahun dan sangat tertarik dengan dunia web develop bidang ui/ux designer.</palign"justify> 
-        <h3>Keahlian Saya</h3>  
-        <ul>
-            <li> Microsoft Office (Word,Excel,Power Point)</li>
-            <li> Pemograman (PHP,XAMPP,Basic C++,Basic Android Studio,Netbeans)</li>
-            <li> Editing (Canva)</li>
-        </ul> 
-        <h4>Pendidikan Saya</h4>
-        <ul>
-            <li> 2020-Sekarang  Sekolah Tinggi Teknologi Bandung (Teknik Informatika)</li>
-            <li> 2017-2020      SMK Negeri 1 Palembang (Administrasi Perkantoran)</li>
-            <li> 2014-2017      SMP Negeri 21 Palembang</li>
-        </ul>
-        <h5>Kontak Saya</h5>
-        <ul>
-            <li> Instagram      tiaaulia_17</li>
-            <li> WhatsApp       089656735351</li>
-            <li> Facebook       tiaaulia</li>
-            <li> Email          tiaulia701@gmail.com</li>
-            <li> Telegram       Tia Aulia</li>  
-        </ul>
-    </body>
+    </nav>
+
+  <!-- hero -->
+  <div id="hero" class="container d-flex flex-column align-items-center justify-content-center mb-5">
+    <img src="./profil.jpg" class="image-hero rounded-circle" alt="">
+    <h1 class="title fw-bold">Tia Aulia Azahra</h1>
+    <p class="subtitle">UI/UX Designer</p>
+    <i class="bi bi-arrow-down"></i>
+  </div>
+
+  <!-- about me -->
+  <div class="container mb-5">
+      <h2 class="text-center mb-3">About me</h2>
+        <div class="row">
+          <div class="col-6">
+            <img src="./asset/image/foti.jpeg" class="shadow rounded w-100" alt="">
+          </div>
+          <div class="col-6">
+            <p class="text-about">Perkenalkan Nama Saya Tia Aulia Azahra, Biasa Dipanggil Tia Saat Ini Saya Sedang Mengikuti Studi Independen di SEAL by AWS. Saat Ini Saya Sedang Menempuh Pendidikan Di Sekolah Tinggi Teknologi Bandung Dan Saat Ini Saya Sedang Masuk Disemester 5, Selain mempunyai basic IT saya juga memiliki keahlian lainnya yaitu dalam kegiatan administrasi dan finance.</p>
+          </div>    
+      </div>
+  </div>
+  <!-- Skill -->
+  <div class="container mb-5">
+    <h2 class="text-center mb-3">My Skill</h2>
+    <div class="row">
+        <div class="col-3">
+            <div class="card">
+                <img src="./asset/image/hutan.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Web Basic</h5>
+                    <p class="card-text">Pemograman (PHP,XAMPP,Basic C++,Basic Android Studio,Netbeans)</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./asset/image/pemandangan.jpeg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Microsoft Office</h5>
+                    <p class="card-text">Office Word, Microsoft Office Power Point,Microsoft Excel Dan CANVA</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./asset/image/pohon.jpeg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Communication</h5>
+                    <p class="card-text">dapat berkomunikasi dengan baik dan mengutamakan 3 S(Senyum,sapa,salam,).</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card">
+                <img src="./asset/image/foto.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Team Skills</h5>
+                    <p class="card-text">Mampu bekerja sama dengan tim dan mandiri serta bisa berkerja dibawah tekanan.</p>
+                    <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+              </div>
+          </div>         
+      </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/tiaaulia_17"><i class="bi bi-instagram"></i></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://github.com/tiaae/web-basic-seal"><i class="bi bi-github"></i></svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>   
+
 </html>
